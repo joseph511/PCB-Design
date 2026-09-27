@@ -1,0 +1,30 @@
+{
+    "symbol": "XAUUSD",
+    "backtested_at": "2026-06-19 00:07:39.224369",
+    "period_start": "2023-06-27 07:00:00",
+    "period_end": "2026-06-18 07:45:00",
+    "trades": 465,
+    "wins": 387,
+    "losses": 78,
+    "win_rate": 0.832258064516129,
+    "gross_profit_r": 749.3267928435548,
+    "gross_loss_r": 75.68110980192503,
+    "profit_factor": 9.901107354328133,
+    "total_r": 673.6456830416299,
+    "average_r": 1.448700393637914,
+    "max_drawdown_r": -3.0,
+    "final_equity_r": 673.6456830416298,
+    "entry_model_f1": 0.5340259433686768,
+    "entry_config": {
+        "forward_bars": 24,
+        "sl_atr": 1.25,
+        "rr": 2.0,
+        "n_estimators": 300,
+        "max_depth": 10,
+        "min_samples_leaf": 15,
+        "n_splits": 4,
+        "entry_probability_threshold": 0.55,
+        "random_state": 98873
+    },
+    "profitable": true
+}

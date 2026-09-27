@@ -1,0 +1,4 @@
+direction,threshold,samples,test_trades,winrate,profit_factor,max_dd_r,total_r,avg_r,auc,swing_mult,lookahead,atr_stop,rr,session_mode
+long,0.62,437,29,0.4138,1.0074,8.83,0.13,0.0045,0.6005,1.2,48,0.5,1.5,london_ny
+short,0.58,503,29,0.4483,1.1596,5.15,2.63,0.0907,0.6075,1.2,48,0.5,1.5,london_ny
+long,0.56,749,72,0.5972,2.1162,3.09,33.34,0.4631,0.6993,1.2,48,0.5,1.5,all

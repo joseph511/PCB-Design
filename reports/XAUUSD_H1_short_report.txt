@@ -1,0 +1,14 @@
+Direction: short
+Samples: 739
+Train: 554
+Test: 185
+AUC: 0.5296
+
+              precision    recall  f1-score   support
+
+           0       0.69      0.96      0.80       129
+           1       0.00      0.00      0.00        56
+
+    accuracy                           0.67       185
+   macro avg       0.34      0.48      0.40       185
+weighted avg       0.48      0.67      0.56       185
