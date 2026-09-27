@@ -1,0 +1,80 @@
+{
+    "symbol": "XAUUSD",
+    "backtested_at": "2026-06-19 00:28:01.583320",
+    "period_start": "2023-06-27 07:15:00",
+    "period_end": "2026-06-18 11:00:00",
+    "trades": 1283,
+    "wins": 627,
+    "losses": 656,
+    "win_rate": 0.4886983632112237,
+    "gross_profit_r": 1233.0001964722192,
+    "gross_loss_r": 656.0,
+    "profit_factor": 1.8795734702320415,
+    "total_r": 577.0001964722192,
+    "average_r": 0.44972735500562677,
+    "median_r": -1.0,
+    "std_r": 1.4903049713463612,
+    "max_drawdown_r": -60.370804194109525,
+    "final_equity_r": 577.0001964722194,
+    "max_consecutive_losses": 15,
+    "max_consecutive_wins": 10,
+    "average_win_r": 1.9665074903863144,
+    "average_loss_r": -1.0,
+    "largest_win_r": 2.0000000000003424,
+    "largest_loss_r": -1.0,
+    "expectancy_r": 0.44972735500562677,
+    "entry_model_f1": 0.5340259433686768,
+    "entry_config": {
+        "forward_bars": 24,
+        "sl_atr": 1.25,
+        "rr": 2.0,
+        "n_estimators": 300,
+        "max_depth": 10,
+        "min_samples_leaf": 15,
+        "n_splits": 4,
+        "entry_probability_threshold": 0.55,
+        "random_state": 98873
+    },
+    "execution_model": "realistic_bid_ask_from_mt5_spread",
+    "entry_timing": "next_m15_open_after_signal",
+    "commission_per_trade_r": 0.0,
+    "account_growth": [
+        {
+            "risk_fraction": 0.0025,
+            "initial_balance": 10000.0,
+            "final_balance": 41904.729305291796,
+            "net_profit": 31904.729305291796,
+            "return_pct": 319.04729305291795,
+            "max_drawdown_pct": -14.079782237639686,
+            "min_balance": 9386.090471340473
+        },
+        {
+            "risk_fraction": 0.005,
+            "initial_balance": 10000.0,
+            "final_balance": 172246.30508051603,
+            "net_profit": 162246.30508051603,
+            "return_pct": 1622.4630508051605,
+            "max_drawdown_pct": -26.298515710227466,
+            "min_balance": 8780.053652893748
+        },
+        {
+            "risk_fraction": 0.01,
+            "initial_balance": 10000.0,
+            "final_balance": 2748005.5986334532,
+            "net_profit": 2738005.5986334532,
+            "return_pct": 27380.05598633453,
+            "max_drawdown_pct": -46.03632437199208,
+            "min_balance": 7605.549844188476
+        }
+    ],
+    "profitable": true,
+    "monte_carlo": {
+        "runs": 1000,
+        "median_final_r": 579.7023703773984,
+        "worst_final_r": 396.22360357978397,
+        "best_final_r": 754.2149031204335,
+        "median_max_drawdown_r": -12.000000000000055,
+        "worst_max_drawdown_r": -28.999999999999908,
+        "drawdown_95pct_r": -18.000000000000057
+    }
+}
